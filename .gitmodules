@@ -1,0 +1,4 @@
+[submodule "ingadhoc/stock"]
+	path = ingadhoc/stock
+	url = git@github.com:ingadhoc/stock.git
+	branch = 15.0
