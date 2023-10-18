@@ -52,3 +52,8 @@
 	path = tnet-ba/tnet-website
 	url = git@github.com:Tecnicanet-BA/tnet-website.git
 	branch = 15.0
+
+[submodule "Tecnicanet-BA/website"]
+	path = Tecnicanet-BA/website
+	url = git@github.com:Tecnicanet-BA/tnet-website.git
+	branch = 15.0
