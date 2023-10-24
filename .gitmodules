@@ -57,3 +57,8 @@
 	path = OCA/purchase-workflow
 	url = git@github.com:OCA/purchase-workflow.git
 	branch = 15.0
+
+[submodule "Tecnicanet-BA/tnet-website"]
+	path = Tecnicanet-BA/tnet-website
+	url = git@github.com:Tecnicanet-BA/tnet-website.git
+	branch = 15.0
