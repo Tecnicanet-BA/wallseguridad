@@ -57,3 +57,8 @@
 	path = Tecnicanet-BA/website
 	url = git@github.com:Tecnicanet-BA/tnet-website.git
 	branch = 15.0
+
+[submodule "OCA/e-commerce"]
+	path = OCA/e-commerce
+	url = git@github.com:OCA/e-commerce.git
+	branch = 15.0
