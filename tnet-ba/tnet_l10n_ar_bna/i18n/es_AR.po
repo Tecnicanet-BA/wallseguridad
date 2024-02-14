@@ -1,0 +1,180 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* tnt_l10n_ar_bna
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-02-12 17:08+0000\n"
+"PO-Revision-Date: 2024-02-12 17:08+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: tnt_l10n_ar_bna
+#: model_terms:ir.ui.view,arch_db:tnt_l10n_ar_bna.res_config_settings_bna_form_view
+msgid ""
+"<span class=\"o_form_label\">BNA Options</span>\n"
+"                                <span class=\"fa fa-lg fa-building-o\" title=\"Values set here are company-specific.\" aria-label=\"Values set here are company-specific.\" groups=\"base.group_multi_company\" role=\"img\"/>"
+msgstr ""
+"<span class=\"o_form_label\">BNA Opciones</span>\n"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model,name:tnt_l10n_ar_bna.model_account_bna_currencies
+msgid "Account BNA Currencies"
+msgstr "Monedas BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.actions.act_window,name:tnt_l10n_ar_bna.action_bna_currencies
+#: model:ir.ui.menu,name:tnt_l10n_ar_bna.bna_currencies_submenu
+#: model_terms:ir.ui.view,arch_db:tnt_l10n_ar_bna.account_bna_currencies_search_view
+#: model_terms:ir.ui.view,arch_db:tnt_l10n_ar_bna.account_bna_currencies_tree_view
+msgid "BNA Currencies"
+msgstr "Monedas BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model,name:tnt_l10n_ar_bna.model_account_currencies_bna_updater
+msgid "BNA Currencies Updater"
+msgstr "Actualización Monedas BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__name
+msgid "BNA Currency"
+msgstr "Moneda BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.actions.server,name:tnt_l10n_ar_bna.bna_synch_scheduler_ir_actions_server
+#: model:ir.cron,cron_name:tnt_l10n_ar_bna.bna_synch_scheduler
+#: model:ir.cron,name:tnt_l10n_ar_bna.bna_synch_scheduler
+msgid "BNA Synch: get BNA currency rates"
+msgstr "BNA Sincronización: Lee cotización de monedas del BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields.selection,name:tnt_l10n_ar_bna.selection__res_company__l10n_ar_bna_rate_type__billete
+msgid "Billete"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model,name:tnt_l10n_ar_bna.model_res_company
+msgid "Companies"
+msgstr "Compañías"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields.selection,name:tnt_l10n_ar_bna.selection__res_company__l10n_ar_bna_currency_value__compra
+msgid "Compra"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model,name:tnt_l10n_ar_bna.model_res_config_settings
+msgid "Config Settings"
+msgstr "Configuración"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__create_uid
+msgid "Created by"
+msgstr "Creado por"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__create_date
+msgid "Created on"
+msgstr "Creado"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__display_name
+msgid "Display Name"
+msgstr "Nombre a mostrar"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields.selection,name:tnt_l10n_ar_bna.selection__res_company__l10n_ar_bna_rate_type__divisa
+msgid "Divisa"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: code:addons/tnt_l10n_ar_bna/models/bna.py:0
+#, python-format
+msgid "Error retrieving info from BNA. No data retrieved from %s"
+msgstr "Error recibiendo información desde BNA. NO se recibieron datos desde %s"
+
+#. module: tnt_l10n_ar_bna
+#: code:addons/tnt_l10n_ar_bna/models/bna.py:0
+#, python-format
+msgid "Error: Web Service [%s] does not exist or it is non accesible !"
+msgstr "Error: Webservice [%] no existe o no es accesible"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__id
+msgid "ID"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies____last_update
+msgid "Last Modified on"
+msgstr "Ultima modificación"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__write_date
+msgid "Last Updated on"
+msgstr "Ultima actualización"
+
+#. module: tnt_l10n_ar_bna
+#: code:addons/tnt_l10n_ar_bna/models/bna.py:0
+#, python-format
+msgid "No \"billetes\" found! Bad site structure! Please check connection!"
+msgstr "Tag \"billetes\" no encontrado! Estructura del sitio no correcta! Por favor chequee la conexión!"
+
+#. module: tnt_l10n_ar_bna
+#: code:addons/tnt_l10n_ar_bna/models/bna.py:0
+#, python-format
+msgid "No \"divisas\" found! Bad site structure! Please check connection!"
+msgstr "Tag \"divisas\" no encontrado! Estructura del sitio no correcta! Por favor chequee la conexión!"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__currency_id
+msgid "Odoo Currency"
+msgstr "Moneda Odoo"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields.selection,name:tnt_l10n_ar_bna.selection__res_company__l10n_ar_bna_currency_value__promedio
+msgid "Promedio Compra-Venta"
+msgstr ""
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_res_company__l10n_ar_bna_rate_type
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_res_config_settings__l10n_ar_bna_rate_type
+msgid "Rate"
+msgstr "Cotización"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__property_read_rate
+msgid "Read Rate?"
+msgstr "Leer?"
+
+#. module: tnt_l10n_ar_bna
+#: model_terms:ir.ui.view,arch_db:tnt_l10n_ar_bna.res_config_settings_bna_form_view
+msgid "Synchronization options BNA currencies for this company."
+msgstr "Opciones de sincronizacion de monedas BNA para esta compañía"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_account_bna_currencies__bna_units
+msgid "Units listed in BNA"
+msgstr "Unidades BNA"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_res_company__l10n_ar_bna_currency_value
+#: model:ir.model.fields,field_description:tnt_l10n_ar_bna.field_res_config_settings__l10n_ar_bna_currency_value
+msgid "Value"
+msgstr "Valor"
+
+#. module: tnt_l10n_ar_bna
+#: model:ir.model.fields.selection,name:tnt_l10n_ar_bna.selection__res_company__l10n_ar_bna_currency_value__venta
+msgid "Venta"
+msgstr ""
