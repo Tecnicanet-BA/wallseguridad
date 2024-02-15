@@ -1,5 +1,4 @@
 # wallseguridad
-##Readme de Wall Seguridad
 
 El principal objetivo de este repositorio es resolver problemáticas a la hora de relacionadas con la presentación de los productos en el sitio web.
 [//]: # (addons)
